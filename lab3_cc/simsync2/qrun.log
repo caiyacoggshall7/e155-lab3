@@ -1,0 +1,19 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 20:51:17 on Sep 20,2025
+# Loading sv_std.std
+# Loading work.synchronizer_tb(fast)
+# Loading work.synchronizer(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+# ** Error: Not syncronized correctly!
+#    Time: 22 ns  Scope: synchronizer_tb File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer_tb.sv Line: 26
+# Causality operation skipped due to absence of debug database file
+# End time: 20:59:47 on Sep 20,2025, Elapsed time: 0:08:30
+# Errors: 1, Warnings: 0

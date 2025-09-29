@@ -1,0 +1,6 @@
+- Entry: 1
+  Time: Sat Sep 20 22:40:10 2025
+  Command: C:\lscc\radiant\2024.2\questasim\win64\qrun.exe -reportprogress 300 -guimode -clean -f C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simscan2/simscan2.f 
+- Entry: 2
+  Time: Sun Sep 21 14:08:23 2025
+  Command: C:\lscc\radiant\2024.2\questasim\win64\qrun.exe -reportprogress 300 -guimode -f C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simscan2/simscan2.f 

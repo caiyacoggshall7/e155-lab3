@@ -1,0 +1,250 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simdecode9
+vdebouncer
+Z2 2C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/slowclock.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/sevensegdisplay.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/debouncer.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/multiplex.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1758489518
+!i10b 1
+!s100 cm2RMF5R<HS6B3n=4dUzH3
+IN<mg`Q<RIDjO2On^4@1Ul3
+S1
+R1
+w1758438580
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/debouncer.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/debouncer.sv
+!i122 0
+L0 1 48
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z7 !s108 1758489518.000000
+Z8 !s107 C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/multiplex.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/debouncer.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/sevensegdisplay.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/slowclock.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv|
+Z9 !s90 -reportprogress|300|-L|work|-sv|+noacc+pmi_work.*|+noacc+ovi_ice40up.*|-L|pmi_work|-L|ovi_ice40up|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/slowclock.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/sevensegdisplay.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/debouncer.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/multiplex.sv|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|
+!i113 0
+Z10 o-L work -sv +noacc+pmi_work.* +noacc+ovi_ice40up.* -L pmi_work -L ovi_ice40up -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vdecoder
+R2
+R3
+R4
+!i10b 1
+!s100 48DgOOozgJWVeIGDeWKz:2
+IYVRR^2FmL=7F:PN]AZC:N3
+S1
+R1
+w1758438593
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder.sv
+!i122 0
+L0 1 56
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdecoder_tb
+R2
+R3
+R4
+!i10b 1
+!s100 ?1N885YUI=`BnI7PA1HT`3
+IGTS?:O7IfAJ]`6i;0b]UZ0
+S1
+R1
+w1758489430
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv
+!i122 0
+L0 3 44
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vkeyscanner
+R2
+R3
+R4
+!i10b 1
+!s100 l<4^DQe[FOmRRSA5O]3KQ2
+IQFI<N[0ee?j8dgORO>``C3
+S1
+R1
+w1758438545
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner.sv
+!i122 0
+L0 1 74
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vmultiplex
+R2
+R3
+R4
+!i10b 1
+!s100 j[m21n6BiC?jdQ9b3FBgL0
+Ii20>j1:;[3=KfN:bD5iaR1
+S1
+R1
+w1758439002
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/multiplex.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/multiplex.sv
+!i122 0
+L0 1 22
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Tqrun_opt
+R4
+Vi8XekdD9K<TL2>Q6=fb3^1
+04 10 4 work decoder_tb fast 0
+R0
+!s12f OEM25U2 
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-suppress vopt-7033 -L work +acc +noacc+pmi_work.* +noacc+ovi_ice40up.* -L pmi_work -L ovi_ice40up -work qrun.out/work
+R11
+nqrun_opt
+OL;O;2024.2;79
+vsevensegdisplay
+R2
+R3
+R4
+!i10b 1
+!s100 48e7J32KAgm9b_:5:cW[:2
+IGH@@HBCzV5KKIQgRT83KV0
+S1
+R1
+Z12 w1758434024
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/sevensegdisplay.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/sevensegdisplay.sv
+!i122 0
+L0 1 32
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vslowclock
+R2
+R3
+R4
+!i10b 1
+!s100 F>VR>Hb3Hj>kneNTWl3[h1
+Io4io794K5B8SLQ;eg;NVa2
+S1
+R1
+w1758438561
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/slowclock.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/slowclock.sv
+!i122 0
+L0 1 15
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsynchronizer
+R2
+R3
+R4
+!i10b 1
+!s100 OoF?i?UKaMedP6MJCNlY=1
+IUWPY;A31_K=MNN8LHU@fT3
+S1
+R1
+R12
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv
+!i122 0
+L0 1 17
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtop
+R2
+R3
+R4
+!i10b 1
+!s100 S9_7O9>@gWG6HLhPoZo[62
+IPKQd6cgUF9MNlmd=l1`Y30
+S1
+R1
+R12
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv
+!i122 0
+L0 1 38
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11

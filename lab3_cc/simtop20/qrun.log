@@ -1,0 +1,55 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 22:02:34 on Sep 21,2025
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'syncoutput'. The port definition is at: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/dut/sync File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'row'. The port definition is at: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/dut/ks File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv Line: 24
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+# Causality operation skipped due to absence of debug database file
+add wave  \
+sim:/top_tb/dut/oldpress \
+sim:/top_tb/dut/newpress \
+sim:/top_tb/dut/currentpress \
+sim:/top_tb/dut/pulseenable \
+sim:/top_tb/dut/rowpressed \
+sim:/top_tb/dut/stopscan
+add wave -position insertpoint  \
+sim:/top_tb/dut/ks/state
+add wave -position insertpoint  \
+sim:/top_tb/dut/db/state
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'syncoutput'. The port definition is at: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/dut/sync File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'row'. The port definition is at: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/dut/ks File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv Line: 24
+run 700
+add wave -position insertpoint  \
+sim:/top_tb/row
+# End time: 22:19:06 on Sep 21,2025, Elapsed time: 0:16:32
+# Errors: 0, Warnings: 2

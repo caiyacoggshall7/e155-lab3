@@ -1,0 +1,39 @@
+#Start recording tcl command: 9/20/2025 12:39:08
+#Project Location: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc; Project name: lab3_cc
+prj_open "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/lab3_cc.rdf"
+prj_remove_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/segdriver.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/pinplan.pdc"
+prj_enable_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/pinplan.pdc"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/multiplex_tb.sv"
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/multiplex_tb.sv"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/sevensegdisplay_tb.sv"
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/sevensegdisplay_tb.sv"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/slowclock_tb.sv"
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/slowclock_tb.sv"
+#Stop recording: 9/20/2025 19:04:39

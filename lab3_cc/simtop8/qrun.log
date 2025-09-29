@@ -1,0 +1,169 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   2
+#   Totals: Errors:   0, Warnings:   2
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 16:00:20 on Sep 21,2025
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+# Causality operation skipped due to absence of debug database file
+run 200
+add wave  \
+sim:/top_tb/dut/db/state
+run 500
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 500
+add wave  \
+sim:/top_tb/dut/ks/state
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 600
+run -all
+# Break key hit
+# Simulation stop requested.
+# Error opening C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop8/nofile
+# Path name 'C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop8/nofile' doesn't exist.
+# Error opening C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop8/nofile
+# Path name 'C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop8/nofile' doesn't exist.
+# Error opening C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop8/nofile
+# Path name 'C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop8/nofile' doesn't exist.
+add wave -position insertpoint  \
+sim:/top_tb/dut/clk
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run -all
+# Break key hit
+# Simulation stop requested.
+run 0.5 second
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 0.5 second
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 0.5 second
+# End time: 16:30:03 on Sep 21,2025, Elapsed time: 0:29:43
+# Errors: 0, Warnings: 0

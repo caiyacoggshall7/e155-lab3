@@ -1,0 +1,32 @@
+#Start recording tcl command: 9/23/2025 14:40:33
+#Project Location: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc; Project name: lab3_cc
+prj_open "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/lab3_cc.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/debounce2.sv"
+prj_remove_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/debounce2.sv"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscan.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/23/2025 17:00:04

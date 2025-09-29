@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop2
+vtop_tb
+2C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1758424611
+!i10b 1
+!s100 P6a2Ql=9jY3hI?dcdWc;W3
+I:o4[MziETM:AkiBjTEk^k1
+S1
+R0
+w1758424581
+8C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv
+FC:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv
+!i122 0
+L0 4 20
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2024.2;79
+r1
+!s85 0
+31
+!s108 1758424611.000000
+!s107 C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

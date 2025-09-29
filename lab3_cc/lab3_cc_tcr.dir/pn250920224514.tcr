@@ -1,0 +1,30 @@
+#Start recording tcl command: 9/20/2025 19:25:52
+#Project Location: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc; Project name: lab3_cc
+prj_open "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/lab3_cc.rdf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv"
+prj_run PAR -impl impl_1
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop/simtop.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simtop2/simtop2.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer_tb.sv"
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simsync1/simsync1.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simsync2/simsync2.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv"
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simdecode1/simdecode1.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner_tb.sv"
+prj_disable_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simscan1/simscan1.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simscan2/simscan2.spf"
+#Stop recording: 9/20/2025 22:45:14

@@ -1,0 +1,68 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  59 of 5280 (1.117%)
+I/O cells:      22
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        23          100.0
+                            FD1P3XZ        59          100.0
+                              HSOSC         1          100.0
+                                 IB         5          100.0
+                               LUT4       141          100.0
+                                 OB        17          100.0
+SUB MODULES
+                          debouncer         1
+                            decoder         1
+                         keyscanner         1
+                          multiplex         1
+                    sevensegdisplay         1
+                          slowclock         1
+                              TOTAL       252
+----------------------------------------------------------------------
+Report for cell sevensegdisplay.v1
+Instance Path : ssd
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7            5.0
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell multiplex.v1
+Instance Path : mp
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         1            1.7
+                               LUT4         6            4.3
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell keyscanner.v1
+Instance Path : ks
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         5            8.5
+                               LUT4        84           59.6
+                              TOTAL        89
+----------------------------------------------------------------------
+Report for cell debouncer.v1
+Instance Path : db
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        13           56.5
+                            FD1P3XZ        27           45.8
+                               LUT4        11            7.8
+                              TOTAL        51
+----------------------------------------------------------------------
+Report for cell slowclock.v1
+Instance Path : sc
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        10           43.5
+                            FD1P3XZ        18           30.5
+                              TOTAL        28
+----------------------------------------------------------------------
+Report for cell decoder.v1
+Instance Path : dc
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         8           13.6
+                               LUT4        32           22.7
+                              TOTAL        40

@@ -1,0 +1,11 @@
+DRC: Design Rule Check Radiant Software (64-bit) 2024.2.0.3.0
+Tue Sep 23 01:42:01 2025
+
+WARNING <1027013> - No port matched 'unsyncrow[0]'.
+WARNING <1026001> - C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/pinplan.pdc (19) : Can't resolve object 'unsyncrow[0]' in constraint 'ldc_set_port -iobuf {PULLMODE=NA} [get_ports {unsyncrow[0]}]'.
+WARNING <1027013> - No port matched 'unsyncrow[1]'.
+WARNING <1026001> - C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/pinplan.pdc (20) : Can't resolve object 'unsyncrow[1]' in constraint 'ldc_set_port -iobuf {PULLMODE=NA} [get_ports {unsyncrow[1]}]'.
+WARNING <1027013> - No port matched 'unsyncrow[2]'.
+WARNING <1026001> - C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/pinplan.pdc (21) : Can't resolve object 'unsyncrow[2]' in constraint 'ldc_set_port -iobuf {PULLMODE=NA} [get_ports {unsyncrow[2]}]'.
+WARNING <1027013> - No port matched 'unsyncrow[3]'.
+WARNING <1026001> - C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/pinplan.pdc (22) : Can't resolve object 'unsyncrow[3]' in constraint 'ldc_set_port -iobuf {PULLMODE=NA} [get_ports {unsyncrow[3]}]'.

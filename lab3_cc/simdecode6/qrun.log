@@ -1,0 +1,21 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 23:48:30 on Sep 20,2025
+# Loading sv_std.std
+# Loading work.decoder_tb(fast)
+# Loading work.decoder(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+# ** Error: Values for keycode = 3 are wrong!
+#    Time: 32 ns  Scope: decoder_tb File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv Line: 35
+# ** Error: Values for keycode = F are wrong!
+#    Time: 42 ns  Scope: decoder_tb File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv Line: 43
+# Causality operation skipped due to absence of debug database file
+# End time: 23:51:06 on Sep 20,2025, Elapsed time: 0:02:36
+# Errors: 2, Warnings: 0

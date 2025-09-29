@@ -1,0 +1,15 @@
+Property_Name=CLOCK_NAME_hsosc_clk
+Property_Type=String
+Property_Value=hsosc_clk
+Property_Name=CLOCK_POINT_NAME_hsosc_clk
+Property_Type=String
+Property_Value=
+Property_Name=CLOCK_NETNAME_hsosc_clk
+Property_Type=String
+Property_Value=hsosc_clk
+Property_Name=REQUIRED_FREQUENCY_hsosc_clk
+Property_Type=Float
+Property_Value=24.0004
+Property_Name=ACTUAL_FREQUENCY_hsosc_clk
+Property_Type=Float
+Property_Value=48.0954

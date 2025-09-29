@@ -1,0 +1,94 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   2
+#   Totals: Errors:   0, Warnings:   2
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 19:44:28 on Sep 20,2025
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+# Causality operation skipped due to absence of debug database file
+add wave -position end  sim:/top_tb/dut/hsosc_clk
+add wave -position end  sim:/top_tb/dut/oldpress
+add wave -position end  sim:/top_tb/dut/newpress
+add wave -position end  sim:/top_tb/dut/currentpress
+add wave -position end  sim:/top_tb/dut/col
+run 50
+run
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 200
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 200
+vlib work
+vlog -reportprogress 300 -work work C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:15:53 on Sep 20,2025
+# vlog -reportprogress 300 -work work C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv 
+# -- Compiling module top_tb
+# ** Error: (vlog-13069) C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv(19): near "b": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 20:15:53 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+run 200
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading ovi_ice40up.HSOSC(fast)
+# Loading work.slowclock(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+vlog -reportprogress 300 -work work C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv
+# Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 20:16:51 on Sep 20,2025
+# vlog -reportprogress 300 -work work C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top_tb.sv 
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 20:16:51 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run 200
+# End time: 20:21:41 on Sep 20,2025, Elapsed time: 0:37:13
+# Errors: 0, Warnings: 0

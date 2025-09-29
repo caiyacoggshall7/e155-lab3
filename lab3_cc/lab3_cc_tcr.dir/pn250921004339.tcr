@@ -1,0 +1,17 @@
+#Start recording tcl command: 9/20/2025 23:02:43
+#Project Location: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc; Project name: lab3_cc
+prj_open "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/lab3_cc.rdf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simdecode2/simdecode2.spf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simdecode3/simdecode3.spf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simdecode4/simdecode4.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simdecode6/simdecode6.spf"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simdecode7/simdecode7.spf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/21/2025 00:43:39

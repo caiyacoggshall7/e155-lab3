@@ -1,0 +1,3 @@
+- Entry: 1
+  Time: Sat Sep 20 23:27:05 2025
+  Command: C:\lscc\radiant\2024.2\questasim\win64\qrun.exe -reportprogress 300 -guimode -clean -f C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/simdecode2/simdecode2.f 

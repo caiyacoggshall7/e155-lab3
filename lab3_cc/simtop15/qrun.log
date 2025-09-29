@@ -1,0 +1,145 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 20:04:01 on Sep 21,2025
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+add wave -position insertpoint  \
+sim:/top_tb/dut/oldpress \
+sim:/top_tb/dut/newpress \
+sim:/top_tb/dut/currentpress \
+sim:/top_tb/dut/pulseenable \
+sim:/top_tb/dut/rowpressed
+add wave -position insertpoint  \
+sim:/top_tb/dut/ks/state
+add wave -position insertpoint  \
+sim:/top_tb/dut/db/state
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 700
+# Causality operation skipped due to absence of debug database file
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#   Totals: Errors:   0, Warnings:   0
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 20:06:04 on Sep 21,2025
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+add wave -position insertpoint  \
+sim:/top_tb/dut/oldpress \
+sim:/top_tb/dut/newpress \
+sim:/top_tb/dut/currentpress \
+sim:/top_tb/dut/pulseenable
+add wave -position insertpoint  \
+sim:/top_tb/dut/ks/state
+add wave -position insertpoint  \
+sim:/top_tb/dut/ks/currentpress
+add wave -position insertpoint  \
+sim:/top_tb/dut/db/state
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 700
+# Causality operation skipped due to absence of debug database file
+add wave -position insertpoint  \
+sim:/top_tb/dut/rowpressed
+restart -f
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+run 700
+# End time: 20:26:49 on Sep 21,2025, Elapsed time: 0:20:45
+# Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 20:28:10 on Sep 21,2025
+# Loading sv_std.std
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'asyncinput'. The port definition is at: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/dut/sync File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv Line: 21
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+# Causality operation skipped due to absence of debug database file
+add wave -position insertpoint  \
+sim:/top_tb/dut/oldpress \
+sim:/top_tb/dut/newpress \
+sim:/top_tb/dut/currentpress \
+sim:/top_tb/dut/pulseenable \
+sim:/top_tb/dut/rowpressed
+add wave -position insertpoint  \
+sim:/top_tb/dut/stopscan
+add wave -position insertpoint  \
+sim:/top_tb/dut/ks/state
+add wave -position insertpoint  \
+sim:/top_tb/dut/db/state
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top_tb(fast)
+# Loading work.top(fast)
+# Loading work.synchronizer(fast)
+# Loading work.keyscanner(fast)
+# Loading work.debouncer(fast)
+# Loading work.decoder(fast)
+# Loading work.multiplex(fast)
+# Loading work.sevensegdisplay(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'asyncinput'. The port definition is at: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top_tb/dut/sync File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/top.sv Line: 21
+run 800
+# End time: 20:55:41 on Sep 21,2025, Elapsed time: 0:27:31
+# Errors: 0, Warnings: 1

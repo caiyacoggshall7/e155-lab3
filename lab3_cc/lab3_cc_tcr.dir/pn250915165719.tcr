@@ -1,0 +1,36 @@
+#Start recording tcl command: 9/15/2025 13:57:54
+#Project Location: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc; Project name: lab3_cc
+prj_open "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/lab3_cc.rdf"
+prj_remove_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keypress.sv"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/scannerdebounce.sv"
+prj_remove_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/scannerdebounce.sv"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/keyscanner.sv"
+prj_remove_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/debouncer.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/slowclock.sv"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/sevensegdisplay.sv"
+prj_add_source "C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/synchronizer.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/15/2025 16:57:19

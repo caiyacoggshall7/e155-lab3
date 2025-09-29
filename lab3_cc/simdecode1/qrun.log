@@ -1,0 +1,25 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run 100 ns" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 22:00:35 on Sep 20,2025
+# Loading sv_std.std
+# Loading work.decoder_tb(fast)
+# Loading work.decoder(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run 100 ns
+# Causality operation skipped due to absence of debug database file
+run -all
+# ** Error: FAILED!: First key press -- got oldpress=0 newpress=0 expected oldpress=6 newpress=0 at time 172.
+#    Time: 172 ns  Scope: decoder_tb.check_key File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv Line: 46
+# ** Error: FAILED!: Second key press -- got oldpress=0 newpress=0 expected oldpress=c newpress=6 at time 322.
+#    Time: 322 ns  Scope: decoder_tb.check_key File: C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv Line: 46
+# ** Note: $stop    : C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv(65)
+#    Time: 572 ns  Iteration: 0  Instance: /decoder_tb
+# Break in Module decoder_tb at C:/Users/ccoggshall/Desktop/e155lab3/lab3_cc/source/impl_1/decoder_tb.sv line 65
+# End time: 22:40:01 on Sep 20,2025, Elapsed time: 0:39:26
+# Errors: 2, Warnings: 0
